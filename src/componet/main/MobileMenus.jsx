@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-import { Menus } from "../data";
+import { Menus } from "../../data";
+
 const MobileMenus = ({ isOpen }) => {
   const [active, setActive] = useState(false);
 

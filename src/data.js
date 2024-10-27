@@ -187,3 +187,55 @@ export const Menus = [
     name: "Contact",
   },
 ];
+
+
+export const carData = [
+  {
+    id: 1,
+    img:"/car-1.png",
+    name: "Mercedes",
+    model: " MF24K",
+  },
+  {
+    id: 2,
+    img:"/car-2.png",
+    name: "DC",
+    model: " DcK",
+  },
+  {
+    id: 3,
+    img:"/car-3.png",
+    name: "Toyota",
+    model: " T12K",
+  },
+  {
+    id: 4,
+    img:"/car-4.png",
+    name: "Audi",
+    model: "Audi500",
+  },
+  {
+    id: 5,
+    img:"/car-5.png",
+    name: "Hundai",
+    model: "HK250",
+  },
+  {
+    id: 6,
+    img:"/car-6.png",
+    name: "Hundai",
+    model: "HTX230",
+  },
+  {
+    id: 7,
+    img:"/car-7.png",
+    name: "Ford",
+    model: "FT220",
+  },
+  {
+    id: 8,
+    img:"/car-8.png",
+    name: "PLussian",
+    model: "hkMet42",
+  },
+]
