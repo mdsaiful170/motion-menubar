@@ -1,5 +1,5 @@
 import { ChevronRight } from "lucide-react";
-import { Button } from "./button";
+import { Button } from "./Button";
 import { cd } from "../../../lib/cd";
 
 export const Herocard = (props) => {
