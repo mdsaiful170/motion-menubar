@@ -1,7 +1,7 @@
-import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { Menus } from "../../data";
+import { useState } from "react";
 
 const MobileMenus = ({ isOpen }) => {
   const [active, setActive] = useState(false);
@@ -19,7 +19,7 @@ const MobileMenus = ({ isOpen }) => {
   return (
     <>
       <motion.ul
-        className=" h-full lg:hidden overflow-y-auto w-1/2 fixed z-10 left-0 right-0 top-0 bg-[#ECE3CA]/5 dark:bg-darkBg/5 backdrop-blur shadow border-e border-e-bgcolor dark:border-white/10 p-4"
+        className=" h-full lg:hidden overflow-y-auto w-3/4 fixed z-10 left-0 right-0 top-0 bg-[#ECE3CA]/5 dark:bg-darkBg/5 backdrop-blur shadow border-e border-e-bgcolor dark:border-white/10 p-4"
         initial={{ x: "-100%" }}
         animate={{ x: isOpen ? "0" : "-100%" }}
       >

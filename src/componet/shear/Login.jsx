@@ -11,7 +11,7 @@ const Login = ({ isloginopen, toggler }) => {
   return (
     <>
       <motion.div
-        className=" top-0 bg-[#ECE3CA]/50 dark:bg-darkBg/5 backdrop-blur shadow border-e border-e-bgcolor  dark:border-white/10 p-4 fixed right-0 w-3/4 lg:w-1/3 h-screen z-[99]"
+        className=" top-0 bg-[#ECE3CA]/50 dark:bg-darkBg/5 backdrop-blur shadow border-e border-e-bgcolor  dark:border-white/10 p-4 fixed right-0 w-full h-screen z-[99]"
         inherit={{ x: "-100%" }}
         animate={{ x: isloginopen ? "0" : "100%" }}
       >

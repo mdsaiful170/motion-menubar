@@ -23,3 +23,21 @@
     @apply px-4 py-2 bg-darkGreen rounded-lg  text-darkBg font-semibold   transition-all duration-200 lg:text-base  text-sm;
   }
 }
+
+@layer utilities{
+  @media (max-width:250px) {
+    html{
+      font-size: 40%;
+    }
+  }
+  @media (max-width:375px) {
+    html{
+      font-size: 85%;
+    }
+  }
+  @media (max-width:450px) {
+    html{
+      font-size: 90%;
+    }
+  }
+}

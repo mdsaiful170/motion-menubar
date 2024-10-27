@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <>
       <section className=" px-3 ">
-        <div className="max-w-screen-xl mx-auto border dark:border-darkGreen/25 border-bgcolor bg-darkBg/5 backdrop-blur-[5px] py-8 rounded-lg">
+        <div className="max-w-screen-xl mx-auto border dark:border-darkGreen/25 border-bgcolor bg-darkBg/5 backdrop-blur-[5px] py-6 px-2 rounded-lg">
           <Swiper
             grabCursor={true}
             loop={true}
@@ -53,8 +53,9 @@ const Hero = () => {
             <div className="absolute  swiper-prev top-[50%] left-2 md:left-10 dark:border-darkGreen/50 active:bg-darkGreen dark:active:text-darkBg  border-darkBg/50 border  cursor-pointer rounded-full px-2 py-1 z-10 ">
               <i className="ri-arrow-left-line"></i>
             </div>
-
-            <div className="swiper-pagination mt-6"></div>
+              <br/>
+              <br/>
+            <div className="swiper-pagination"></div>
           </Swiper>
         </div>
       </section>
