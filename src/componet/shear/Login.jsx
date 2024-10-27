@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
-import { Button } from "./button";
+
 import { useState } from "react";
 import { LoginForm, RegisterForm } from "./Form";
+import { Button } from "./Button";
 const Login = ({ isloginopen, toggler }) => {
   const [activefrom, setActiveFrom] = useState("login");
   const fromHandeler = (form) => {
