@@ -1,6 +1,6 @@
 import Header from "./componet/main/Header";
 import Hero from "./componet/main/Hero";
-import { Button } from "./componet/shear/button";
+
 
 const App = () => {
   return (
