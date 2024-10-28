@@ -21,7 +21,7 @@ const Products = () => {
             spaceBetween={15}
             modules={[Autoplay,Pagination, Navigation]}
             className="relative"
-            speed={2000}
+            speed={1000}
             freeMode={true}
             onAutoplay={true}
             grabCursor={true}
