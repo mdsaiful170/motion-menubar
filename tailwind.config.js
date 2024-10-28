@@ -19,7 +19,7 @@ export default {
         headingcolor: "#282425",
         textcollor: "#4F4A46",
         bgcolor: "#E4D8B4",
-
+        darktextwhite:"#FDFDFD",
         darkBg: "#171212",
         darktextcolor:"#CDCDCD"
       },

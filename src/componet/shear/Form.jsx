@@ -5,10 +5,10 @@ export const LoginForm = () => {
     <>
       <form
         action=""
-        className="max-w-md w-full border-darkBg/25 dark:border-darkGreen/25 rounded-lg border py-4 px-2 bg-white/5 dark:bg-darkBg/50 backdrop-blur-2xl "
+        className="max-w-md w-full border-darkBg/25 dark:border-darkGreen/25 rounded-lg border py-10 px-2 bg-white/5 dark:bg-darkBg/50 backdrop-blur-2xl "
       >
         <div className="space-y-4">
-          <label className="flex items-center h-9 border-darkBg/25 dark:border-darkGreen/25 rounded-lg border">
+          <label className="flex items-center h-12 border-darkBg/25 dark:border-darkGreen/25 rounded-lg border">
             <i className="ri-mail-line px-2"></i>
             <input
               type="email"
@@ -16,7 +16,7 @@ export const LoginForm = () => {
               className="bg-transparent h-full px-1 text-sm font-normal text-darkBg dark:text-white placeholder:text-sm   outline-none w-full "
             />
           </label>
-          <label className="flex items-center h-9 border-darkBg/25 dark:border-darkGreen/25 rounded-lg border">
+          <label className="flex items-center h-12 border-darkBg/25 dark:border-darkGreen/25 rounded-lg border">
             <i className="ri-key-line px-2"></i>
             <input
               type="password"
@@ -44,10 +44,10 @@ export const RegisterForm = () => {
     <>
       <form
         action=""
-        className="max-w-md w-full border-darkBg/25 dark:border-darkGreen/25 rounded-lg border py-4 px-2 bg-white/5 dark:bg-darkBg/50 backdrop-blur-2xl "
+        className="max-w-md w-full border-darkBg/25 dark:border-darkGreen/25 rounded-lg border py-10 px-2 bg-white/5 dark:bg-darkBg/50 backdrop-blur-2xl "
       >
         <div className="space-y-4">
-          <label className="flex items-center h-9 border-darkBg/25 dark:border-darkGreen/25 rounded-lg border">
+          <label className="flex items-center h-12 border-darkBg/25 dark:border-darkGreen/25 rounded-lg border">
             <i className="ri-user-line px-2"></i>
             <input
               type="text"
@@ -55,7 +55,7 @@ export const RegisterForm = () => {
               className="bg-transparent h-full px-1 text-sm font-normal text-darkBg dark:text-white placeholder:text-sm   outline-none w-full "
             />
           </label>
-          <label className="flex items-center h-9 border-darkBg/25 dark:border-darkGreen/25 rounded-lg border">
+          <label className="flex items-center h-12 border-darkBg/25 dark:border-darkGreen/25 rounded-lg border">
             <i className="ri-mail-line px-2"></i>
             <input
               type="email"
@@ -63,7 +63,7 @@ export const RegisterForm = () => {
               className="bg-transparent h-full px-1 text-sm font-normal text-darkBg dark:text-white placeholder:text-sm   outline-none w-full "
             />
           </label>
-          <label className="flex items-center h-9 border-darkBg/25 dark:border-darkGreen/25 rounded-lg border">
+          <label className="flex items-center h-12 border-darkBg/25 dark:border-darkGreen/25 rounded-lg border">
             <i className="ri-key-line px-2"></i>
             <input
               type="password"

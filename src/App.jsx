@@ -1,6 +1,7 @@
 import Header from "./componet/main/Header";
 import Hero from "./componet/main/Hero";
-
+import "remixicon/fonts/remixicon.css";
+import Products from "./componet/main/Products";
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
         <br/><br/>
         <br/><br/>
         <Hero />
-      
+        <Products />
       </main>
     </>
   );

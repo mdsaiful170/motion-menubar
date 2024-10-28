@@ -9,7 +9,7 @@
     @apply !scroll-smooth scroll-p-7 overflow-x-hidden;
   }
   body {
-    @apply bg-[#f4efe2] dark:bg-[#202020] dark:text-[#CDCDCD] text-[#2E282A] font-normal  font-popines transition-all duration-200;
+    @apply box-border bg-[#f4efe2] dark:bg-[#202020] dark:text-[#CDCDCD] text-[#2E282A] font-normal  font-popines transition-all duration-200;
   }
   h1,
   h2,
