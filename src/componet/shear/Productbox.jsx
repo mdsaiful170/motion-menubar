@@ -21,14 +21,14 @@ export const Productbox = ({
           className
         )}
       >
-        <div className="h-32 w-full">
+        <div className="h-40 w-full   rounded-lg py-2">
           <img
             src={img}
             alt="carimg"
             className="  h-full object-contain  w-full  group-hover/box:scale-110   ease-linear duration-200 transition-transform "
           />
         </div>
-        <div className="pt-4 space-y-4">
+        <div className="pt-4 space-y-4 md:text-left text-center">
           <div>
             <h3 className="text-lg font-bold dark:text-darktextwhite ">
               {title}
@@ -38,10 +38,10 @@ export const Productbox = ({
             </p>
           </div>
           <div className="inline-flex items-center gap-x-3">
-            <i className="ri-roadster-line text-lg p-1 px-2 border-darkBg/25 dark:border-darkGreen/25 border rounded-lg shadow dark:shadow-darkGreen/25"></i>
-            <i className="ri-charging-pile-line text-lg p-1 px-2 border-darkBg/25 dark:border-darkGreen/25 border rounded-lg shadow dark:shadow-darkGreen/25"></i>
-            <i className="ri-car-washing-line text-lg p-1 px-2 border-darkBg/25 dark:border-darkGreen/25 border rounded-lg shadow dark:shadow-darkGreen/25"></i>
-            <i className="ri-remote-control-fill text-lg p-1 px-2 border-darkBg/25 dark:border-darkGreen/25 border rounded-lg shadow dark:shadow-darkGreen/25"></i>
+            <i className="ri-roadster-line text-lg p-1 px-2 border-darkBg/25 dark:border-darkGreen/25 border rounded-lg shadow dark:shadow-darkGreen/15"></i>
+            <i className="ri-charging-pile-line text-lg p-1 px-2 border-darkBg/25 dark:border-darkGreen/25 border rounded-lg shadow dark:shadow-darkGreen/15"></i>
+            <i className="ri-car-washing-line text-lg p-1 px-2 border-darkBg/25 dark:border-darkGreen/25 border rounded-lg shadow dark:shadow-darkGreen/15"></i>
+            <i className="ri-remote-control-fill text-lg p-1 px-2 border-darkBg/25 dark:border-darkGreen/25 border rounded-lg shadow dark:shadow-darkGreen/15"></i>
             <div>
               <h3 className="text-sm font-bold dark:text-darktextwhite/75">
                 {name}

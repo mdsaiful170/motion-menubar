@@ -24,20 +24,53 @@
   }
 }
 
-@layer utilities{
-  @media (max-width:250px) {
-    html{
-      font-size: 40%;
+@layer utilities {
+  @media (max-width: 250px) {
+    html {
+      font-size: 40% !important;
     }
   }
-  @media (max-width:375px) {
-    html{
-      font-size: 85%;
+  @media (max-width: 375px) {
+    html {
+      font-size: 85% !important;
     }
   }
-  @media (max-width:450px) {
-    html{
-      font-size: 90%;
+  @media (max-width: 450px) {
+    html {
+      font-size: 90% !important;
     }
+  }
+  /* WATHC */
+  @media (max-width: 172px) {
+    html {
+      font-size: 40% !important;
+    }
+  }
+
+  .swiper-pagination-bullet .swiper-pagination-bullet-active {
+    width: 0.7rem !important;
+    height: 0.3rem !important;
+    background-color: #4caf50 !important;
+  }
+
+  /* .review .review-slider .box {
+    transform: scale(0.8);
+    opacity: 0.4;
+  }
+
+  .review .review-slider .swiper-slide-active {
+    transform: scale(1);
+    opacity: 1;
+  } */
+}
+@layer {
+  .swiper-pagination-bullet {
+    width: 1rem !important;
+    background-color: black;
+    border-radius: 0.2rem !important;
+    background: rgb(164, 164, 164) !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #46f68f !important;
   }
 }

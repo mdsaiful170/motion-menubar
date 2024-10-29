@@ -1,4 +1,4 @@
-import { title } from "framer-motion/client";
+import { img, title } from "framer-motion/client";
 import { Bolt } from "lucide-react";
 import { ShoppingBag } from "lucide-react";
 import { BellDot } from "lucide-react";
@@ -306,5 +306,74 @@ export const cardDatabox = [
     amountone: "$30,480",
     amounttwo: "$19,000",
     bids: "11 bids",
+  },
+];
+
+export const reviewData = [
+  {
+    id: 1,
+    img: "/review-1.png",
+    title: "2021 Cadillac Escalade",
+    desc: "The 2021 Escalade is a technological showcase and a worthy claimant of the flagship American luxury vehicle title.",
+    pic: "/pic-1.png",
+    name: "Hironaka Hiroe",
+    prof: "Chief Editor",
+    rating: "4.91",
+    num: "98",
+  },
+  {
+    id: 2,
+    img: "/review-2.png",
+    title: "2021 Mercedes-Benz GLA250",
+    desc: "If developing a car was a marathon technological showcase, Hyundai didn’t run the last mile with the 2021 Elantra. ",
+    pic: "/pic-2.png",
+    name: "Lew Silverton",
+    prof: "Chief Editor",
+    rating: "4.51",
+    num: "35",
+  },
+  {
+    id: 3,
+    img: "/review-3.png",
+    title: "2021 Hyundai Elantra",
+    desc: "The new entry point into Mercedes-Benz’s SUV lineup is bigger and improved, but still features a frustrating powertrain. ",
+    pic: "/pic-3.png",
+    name: "Debashis Bhuiyan",
+    prof: "News Editor",
+    rating: "4.65",
+    num: "63",
+  },
+  {
+    id: 4,
+    img: "/review-4.png",
+    title: "2021 Audi Mostug",
+    desc: "The 2021 Escalade is a technological showcase and a worthy claimant of the flagship American luxury vehicle title.",
+    pic: "/pic-4.png",
+    name: "Jontk LIitas",
+    prof: "News Editor",
+    rating: "4.00",
+    num: "88",
+  },
+  {
+    id: 5,
+    img: "/review-5.png",
+    title: "Ford Elantra",
+    desc: "The new entry point into Mercedes-Benz’s SUV lineup is bigger and improved, but still features a frustrating powertrain.  ",
+    pic: "/pic-5.png",
+    name: "Deaddoga dogee",
+    prof: "Marketing Senors",
+    rating: "4.65",
+    num: "45",
+  },
+  {
+    id: 6,
+    img: "/review-6.png",
+    title: "2024 Totoya Elantra",
+    desc: "Along with conventional advertising and below the line activities, organizations and corporate bodies have come to realize that.",
+    pic: "/pic-6.png",
+    name: "Monark lobida",
+    prof: "Managing expart",
+    rating: "4.65",
+    num: "73",
   },
 ];
