@@ -17,7 +17,7 @@ export const ReviewCard = ({
       <div
         key={id}
         className={cd(
-          " rounded-lg h-[410px] w-full  bg-white/5 backdrop-blur-[12px]  border border-bgcolor group/box flex  items-center justify-between flex-col dark:border-darkGreen/25",
+          " rounded-lg h-[410px] w-full  bg-white/5 backdrop-blur-[12px]  border border-darkBg/10 group/box flex  items-center justify-between flex-col dark:border-darkGreen/20",
           className
         )}
       >
@@ -51,10 +51,10 @@ export const ReviewCard = ({
               </div>
             </div>
 
-            <div className="inline-flex items-center ">
-              <i className="ri-star-line text-xl font-bold text-darkGreen "></i>
+            <div className="inline-flex items-center gap-x-1 ">
+              <i className="ri-star-fill text-md font-bold text-darkGreen mb-1"></i>
               <p>
-                <span>{rating}</span>
+                <span className="font-bold">{rating}</span>
                 <span>({num})</span>
               </p>
             </div>

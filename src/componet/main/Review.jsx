@@ -17,7 +17,7 @@ const Review = () => {
   return (
     <>
       <section className="px-3 mt-16 lg:mt-[90px]">
-        <Heading>Our Review</Heading>
+        <Heading className={"lg:mb-10"}>Our Review</Heading>
         <Container>
           <Swiper
             className="relative"
@@ -28,8 +28,9 @@ const Review = () => {
             spaceBetween={15}
             modules={[Autoplay, Navigation, Pagination, EffectCoverflow]}
             effect={"coverflow"}
+            speed={350}
             autoplay={{
-              delay: 2500,
+              delay: 3000,
               disableOnInteraction: false,
             }}
             pagination={{
@@ -39,7 +40,7 @@ const Review = () => {
   
             }}
             coverflowEffect={{
-              rotate: 3,
+              rotate: 2,
               stretch: 0,
               depth:80,
               modifier: 4,
@@ -72,10 +73,7 @@ const Review = () => {
           </Swiper>
         </Container>
       </section>
-      <br />
-      <br />
-      <br />
-      <br />
+     
     </>
   );
 };

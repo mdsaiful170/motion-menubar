@@ -22,6 +22,17 @@ const Header = () => {
     document.querySelector("html").classList.toggle("dark", theme === "dark");
   }, [theme]);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    // Clean up function to remove no-scroll class when component unmounts or menu closes
+    return () => document.body.classList.remove("no-scroll");
+  }, [isOpen]);
+
   return (
     <>
       <header className="shadow fixed left-0 right-0 top-0 bg-[#f4efe2] dark:bg-[#202020]  z-50">

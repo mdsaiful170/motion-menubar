@@ -3,6 +3,8 @@ import Hero from "./componet/main/Hero";
 import "remixicon/fonts/remixicon.css";
 import Products from "./componet/main/Products";
 import Review from "./componet/main/Review";
+import Contact from "./componet/main/Contact";
+import Footer from "./componet/main/Footer";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
         <Hero />
         <Products />
         <Review />
+        <Contact />
+        <Footer />
       </main>
     </>
   );

@@ -64,6 +64,9 @@
   } */
 }
 @layer {
+  .no-scroll {
+    overflow: hidden !important;
+  }
   .swiper-pagination-bullet {
     width: 1rem !important;
     background-color: black;

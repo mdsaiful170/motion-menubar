@@ -3,11 +3,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Navigation,
-  Pagination,
-  Autoplay,
-} from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { Herocard } from "../shear/Herocard";
 import { carData } from "../../data";
 import { Container } from "../shear/Container";
@@ -16,13 +12,19 @@ const Hero = () => {
   return (
     <>
       <section className="px-3">
-        <Container className={"py-8 border dark:border-darkGreen/25 border-bgcolor bg-darkBg/5 backdrop-blur"}>
+        <Container
+          className={
+            "py-8 border dark:border-darkGreen/25 border-bgcolor bg-darkBg/5 backdrop-blur-[10px]"
+          }
+        >
+          <div className="absolute top-0 left-0 bottom-0 w-80  opacity-15 rounded-full h-80 bg-teal-400  blur-[170px] -z-10"></div>
+          <div className="absolute right-0 bottom-0 w-80  opacity-15 rounded-full h-80 bg-amber-400  blur-[170px] -z-10"></div>
+
           <Swiper
             grabCursor={true}
             loop={true}
             centeredSlides={true}
             slidesPerView={"auto"}
-            
             className="relative"
             modules={[Navigation, Autoplay, Pagination]}
             pagination={{
@@ -39,7 +41,6 @@ const Hero = () => {
               prevEl: ".swiper-prev",
               clickable: true,
             }}
-            
           >
             {carData.map((res) => (
               <SwiperSlide key={res.id}>
@@ -58,7 +59,6 @@ const Hero = () => {
             <div className="swiper-pagination"></div>
           </Swiper>
         </Container>
-       
       </section>
     </>
   );
